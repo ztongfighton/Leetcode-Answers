@@ -7,6 +7,8 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+ 
+//This is the Morris traversal version
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
